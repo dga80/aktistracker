@@ -11,7 +11,7 @@ const rowsPerPage = 15;
 // State for grouped view
 let isGroupedView = true;
 const groupsPerPage = 8;
-let collapsedGroups = new Set();
+let collapsedGroups = new Set(JSON.parse(localStorage.getItem('aktistracker_collapsed_groups') || '[]'));
 
 // Initialize Theme & Lucide Icons
 document.addEventListener('DOMContentLoaded', () => {
@@ -296,6 +296,7 @@ function toggleGroupCollapse(filePath) {
   } else {
     collapsedGroups.add(filePath);
   }
+  localStorage.setItem('aktistracker_collapsed_groups', JSON.stringify([...collapsedGroups]));
   renderTable();
 }
 

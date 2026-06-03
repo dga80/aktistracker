@@ -43,6 +43,30 @@ function saveConfig(newConfig) {
   }
 }
 
+// Scan caching
+const CACHE_PATH = path.join(__dirname, 'scan_cache.json');
+let scanCache = { files: {} };
+
+function loadScanCache() {
+  try {
+    if (fs.existsSync(CACHE_PATH)) {
+      const data = fs.readFileSync(CACHE_PATH, 'utf8');
+      scanCache = JSON.parse(data);
+      console.log(`Caché de escaneo cargada con ${Object.keys(scanCache.files).length} archivos.`);
+    }
+  } catch (e) {
+    console.error('Error al cargar la caché de escaneo:', e.message);
+  }
+}
+
+function saveScanCache() {
+  try {
+    fs.writeFileSync(CACHE_PATH, JSON.stringify(scanCache, null, 2), 'utf8');
+  } catch (e) {
+    console.error('Error al guardar la caché de escaneo:', e.message);
+  }
+}
+
 // Target directories to scan
 const TARGET_DIRECTORIES = [
   { name: '02-AyC', path: '\\\\172.30.0.10\\Compras\\02-AyC' },
@@ -228,6 +252,115 @@ function formatPlazo(val) {
   return String(val).trim();
 }
 
+// Function to get references for a file, using cache if file modification date matches
+function getReferencesForFile(file, targetName, activeOrdersMap) {
+  let fileRefs = [];
+  try {
+    const stat = fs.statSync(file.path);
+    const mtime = stat.mtimeMs;
+    const size = stat.size;
+
+    // Check if cache matches
+    if (scanCache.files[file.path] &&
+        scanCache.files[file.path].mtime === mtime &&
+        scanCache.files[file.path].size === size) {
+      fileRefs = scanCache.files[file.path].references;
+    } else {
+      // Parse file
+      const workbook = xlsx.readFile(file.path);
+      const folderName = path.basename(path.dirname(file.path));
+
+      for (const sheetName of workbook.SheetNames) {
+        const sheet = workbook.Sheets[sheetName];
+        const rawRows = xlsx.utils.sheet_to_json(sheet, { header: 1, defval: '' });
+
+        if (rawRows.length === 0) continue;
+
+        let headerRowIndex = -1;
+        let codeColIdx = -1;
+        let pteColIdx = -1;
+        let plazoColIdx = -1;
+
+        const searchLimit = Math.min(12, rawRows.length);
+        for (let r = 0; r < searchLimit; r++) {
+          const row = rawRows[r];
+          let foundCode = -1;
+          let foundPte = -1;
+          let foundPlazo = -1;
+
+          for (let c = 0; c < row.length; c++) {
+            const val = String(row[c]).toLowerCase().trim();
+            if (val.includes('código') || val.includes('codigo') || val === 'referencia' || val === 'ref') {
+              foundCode = c;
+            }
+            if (val === 'pte' || val === 'pte.' || val === 'pend' || val === 'pendiente' || val === 'pendientes') {
+              foundPte = c;
+            }
+            if (val.includes('plazo')) {
+              foundPlazo = c;
+            }
+          }
+
+          if (foundCode !== -1 && foundPte !== -1) {
+            headerRowIndex = r;
+            codeColIdx = foundCode;
+            pteColIdx = foundPte;
+            plazoColIdx = foundPlazo;
+            break;
+          }
+        }
+
+        if (headerRowIndex !== -1) {
+          for (let r = headerRowIndex + 1; r < rawRows.length; r++) {
+            const row = rawRows[r];
+            if (!row || row.length <= Math.max(codeColIdx, pteColIdx)) continue;
+
+            const codeVal = String(row[codeColIdx]).trim();
+            const pteVal = row[pteColIdx];
+            const plazoVal = plazoColIdx !== -1 && plazoColIdx < row.length ? row[plazoColIdx] : '';
+            const formattedPlazoVal = formatPlazo(plazoVal);
+
+            if (codeVal !== '' && codeVal.toLowerCase() !== 'nan') {
+              const pteNum = parseFloat(pteVal);
+              const isPendingNum = !isNaN(pteNum) && pteNum !== 0;
+              const isPendingStr = isNaN(pteNum) && String(pteVal).trim() !== '' && String(pteVal).trim() !== '0';
+
+              if (isPendingNum || isPendingStr) {
+                fileRefs.push({
+                  division: targetName,
+                  folder: folderName,
+                  file: file.name,
+                  sheet: sheetName,
+                  code: codeVal,
+                  pte: String(pteVal).trim(),
+                  plazo: formattedPlazoVal,
+                  filePath: file.path
+                });
+              }
+            }
+          }
+        }
+      }
+      // Save/update cache entry
+      scanCache.files[file.path] = { mtime, size, references: fileRefs };
+    }
+  } catch (fileError) {
+    console.error(`Failed to process Excel file ${file.path}:`, fileError.message);
+  }
+
+  // Resolve with latest active order dates dynamically
+  return fileRefs.map(ref => {
+    const fileOrderCode = extractOrderCode(ref.file);
+    const normalizedFileCode = normalizeOrderCode(fileOrderCode);
+    let fechaConfirmadaOF = activeOrdersMap.get(normalizedFileCode);
+    if (!fechaConfirmadaOF) {
+      const baseFileCode = normalizedFileCode.split('.')[0];
+      fechaConfirmadaOF = activeOrdersMap.get(baseFileCode) || '';
+    }
+    return { ...ref, fechaConfirmada: fechaConfirmadaOF };
+  });
+}
+
 // Recursive function to search for Excel files
 function scanDirectory(dir, filesList = []) {
   if (!fs.existsSync(dir)) {
@@ -336,9 +469,12 @@ app.post('/api/config', (req, res) => {
 
 // Scan endpoint
 app.get('/api/scan', (req, res) => {
-  console.log('Starting scan...');
+  console.log('Starting scan with smart caching...');
   const pendingReferences = [];
   let totalFilesScanned = 0;
+  
+  loadScanCache();
+  const newCacheFiles = {};
 
   try {
     const activeOrdersMap = getActiveOrders();
@@ -367,97 +503,19 @@ app.get('/api/scan', (req, res) => {
       totalFilesScanned += files.length;
 
       for (const file of files) {
-        try {
-          const workbook = xlsx.readFile(file.path);
-          const folderName = path.basename(path.dirname(file.path));
-
-          for (const sheetName of workbook.SheetNames) {
-            const sheet = workbook.Sheets[sheetName];
-            const rawRows = xlsx.utils.sheet_to_json(sheet, { header: 1, defval: '' });
-
-            if (rawRows.length === 0) continue;
-
-            let headerRowIndex = -1;
-            let codeColIdx = -1;
-            let pteColIdx = -1;
-            let plazoColIdx = -1;
-
-            // Search the first 12 rows to find headers
-            const searchLimit = Math.min(12, rawRows.length);
-            for (let r = 0; r < searchLimit; r++) {
-              const row = rawRows[r];
-              let foundCode = -1;
-              let foundPte = -1;
-              let foundPlazo = -1;
-
-              for (let c = 0; c < row.length; c++) {
-                const val = String(row[c]).toLowerCase().trim();
-                if (val.includes('código') || val.includes('codigo') || val === 'referencia' || val === 'ref') {
-                  foundCode = c;
-                }
-                if (val === 'pte' || val === 'pte.' || val === 'pend' || val === 'pendiente' || val === 'pendientes') {
-                  foundPte = c;
-                }
-                if (val.includes('plazo')) {
-                  foundPlazo = c;
-                }
-              }
-
-              if (foundCode !== -1 && foundPte !== -1) {
-                headerRowIndex = r;
-                codeColIdx = foundCode;
-                pteColIdx = foundPte;
-                plazoColIdx = foundPlazo;
-                break;
-              }
-            }
-
-            // Only process sheets that have both Código and PTE columns
-            if (headerRowIndex !== -1) {
-              for (let r = headerRowIndex + 1; r < rawRows.length; r++) {
-                const row = rawRows[r];
-                if (!row || row.length <= Math.max(codeColIdx, pteColIdx)) continue;
-
-                const codeVal = String(row[codeColIdx]).trim();
-                const pteVal = row[pteColIdx];
-                const plazoVal = plazoColIdx !== -1 && plazoColIdx < row.length ? row[plazoColIdx] : '';
-                const formattedPlazoVal = formatPlazo(plazoVal);
-
-                const fileOrderCode = extractOrderCode(file.name);
-                const normalizedFileCode = normalizeOrderCode(fileOrderCode);
-                let fechaConfirmadaOF = activeOrdersMap.get(normalizedFileCode);
-                if (!fechaConfirmadaOF) {
-                  const baseFileCode = normalizedFileCode.split('.')[0];
-                  fechaConfirmadaOF = activeOrdersMap.get(baseFileCode) || '';
-                }
-
-                if (codeVal !== '' && codeVal.toLowerCase() !== 'nan') {
-                  const pteNum = parseFloat(pteVal);
-                  const isPendingNum = !isNaN(pteNum) && pteNum !== 0;
-                  const isPendingStr = isNaN(pteNum) && String(pteVal).trim() !== '' && String(pteVal).trim() !== '0';
-
-                  if (isPendingNum || isPendingStr) {
-                    pendingReferences.push({
-                      division: target.name,
-                      folder: folderName,
-                      file: file.name,
-                      sheet: sheetName,
-                      code: codeVal,
-                      pte: String(pteVal).trim(),
-                      plazo: formattedPlazoVal,
-                      fechaConfirmada: fechaConfirmadaOF,
-                      filePath: file.path
-                    });
-                  }
-                }
-              }
-            }
-          }
-        } catch (fileError) {
-          console.error(`Failed to process Excel file ${file.path}:`, fileError.message);
+        const fileRefs = getReferencesForFile(file, target.name, activeOrdersMap);
+        pendingReferences.push(...fileRefs);
+        
+        // Copy the updated cache entry to the new cache index to preserve it
+        if (scanCache.files[file.path]) {
+          newCacheFiles[file.path] = scanCache.files[file.path];
         }
       }
     }
+
+    // Save cleaned cache (only contains currently scanned/active files)
+    scanCache.files = newCacheFiles;
+    saveScanCache();
 
     res.json({
       success: true,
@@ -501,9 +559,12 @@ function setupAutomaticScan() {
 }
 
 async function runAutomaticScan() {
-  console.log('[AUTO-SCAN] Iniciando escaneo automático programado...');
+  console.log('[AUTO-SCAN] Iniciando escaneo automático programado con caché inteligente...');
   const pendingReferences = [];
   let totalFilesScanned = 0;
+  
+  loadScanCache();
+  const newCacheFiles = {};
 
   try {
     const activeOrdersMap = getActiveOrders();
@@ -527,95 +588,17 @@ async function runAutomaticScan() {
       totalFilesScanned += files.length;
 
       for (const file of files) {
-        try {
-          const workbook = xlsx.readFile(file.path);
-          const folderName = path.basename(path.dirname(file.path));
-
-          for (const sheetName of workbook.SheetNames) {
-            const sheet = workbook.Sheets[sheetName];
-            const rawRows = xlsx.utils.sheet_to_json(sheet, { header: 1, defval: '' });
-
-            if (rawRows.length === 0) continue;
-
-            let headerRowIndex = -1;
-            let codeColIdx = -1;
-            let pteColIdx = -1;
-            let plazoColIdx = -1;
-
-            const searchLimit = Math.min(12, rawRows.length);
-            for (let r = 0; r < searchLimit; r++) {
-              const row = rawRows[r];
-              let foundCode = -1;
-              let foundPte = -1;
-              let foundPlazo = -1;
-
-              for (let c = 0; c < row.length; c++) {
-                const val = String(row[c]).toLowerCase().trim();
-                if (val.includes('código') || val.includes('codigo') || val === 'referencia' || val === 'ref') {
-                  foundCode = c;
-                }
-                if (val === 'pte' || val === 'pte.' || val === 'pend' || val === 'pendiente' || val === 'pendientes') {
-                  foundPte = c;
-                }
-                if (val.includes('plazo')) {
-                  foundPlazo = c;
-                }
-              }
-
-              if (foundCode !== -1 && foundPte !== -1) {
-                headerRowIndex = r;
-                codeColIdx = foundCode;
-                pteColIdx = foundPte;
-                plazoColIdx = foundPlazo;
-                break;
-              }
-            }
-
-            if (headerRowIndex !== -1) {
-              for (let r = headerRowIndex + 1; r < rawRows.length; r++) {
-                const row = rawRows[r];
-                if (!row || row.length <= Math.max(codeColIdx, pteColIdx)) continue;
-
-                const codeVal = String(row[codeColIdx]).trim();
-                const pteVal = row[pteColIdx];
-                const plazoVal = plazoColIdx !== -1 && plazoColIdx < row.length ? row[plazoColIdx] : '';
-                const formattedPlazoVal = formatPlazo(plazoVal);
-
-                const fileOrderCode = extractOrderCode(file.name);
-                const normalizedFileCode = normalizeOrderCode(fileOrderCode);
-                let fechaConfirmadaOF = activeOrdersMap.get(normalizedFileCode);
-                if (!fechaConfirmadaOF) {
-                  const baseFileCode = normalizedFileCode.split('.')[0];
-                  fechaConfirmadaOF = activeOrdersMap.get(baseFileCode) || '';
-                }
-
-                if (codeVal !== '' && codeVal.toLowerCase() !== 'nan') {
-                  const pteNum = parseFloat(pteVal);
-                  const isPendingNum = !isNaN(pteNum) && pteNum !== 0;
-                  const isPendingStr = isNaN(pteNum) && String(pteVal).trim() !== '' && String(pteVal).trim() !== '0';
-
-                  if (isPendingNum || isPendingStr) {
-                    pendingReferences.push({
-                      division: target.name,
-                      folder: folderName,
-                      file: file.name,
-                      sheet: sheetName,
-                      code: codeVal,
-                      pte: String(pteVal).trim(),
-                      plazo: formattedPlazoVal,
-                      fechaConfirmada: fechaConfirmadaOF,
-                      filePath: file.path
-                    });
-                  }
-                }
-              }
-            }
-          }
-        } catch (fileError) {
-          console.error(`[AUTO-SCAN] Error al procesar Excel ${file.path}:`, fileError.message);
+        const fileRefs = getReferencesForFile(file, target.name, activeOrdersMap);
+        pendingReferences.push(...fileRefs);
+        
+        if (scanCache.files[file.path]) {
+          newCacheFiles[file.path] = scanCache.files[file.path];
         }
       }
     }
+
+    scanCache.files = newCacheFiles;
+    saveScanCache();
 
     if (pendingReferences.length > 0) {
       const excelRows = pendingReferences.map(item => ({
@@ -674,6 +657,7 @@ async function runAutomaticScan() {
 
 // Start server and load config
 loadConfig();
+loadScanCache();
 setupAutomaticScan();
 
 app.listen(PORT, () => {
