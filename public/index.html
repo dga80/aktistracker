@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aktis Tracker — Monitoreo de referencias y plazos</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Lucide Icons (for premium vector icons) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- SheetJS CDN (for frontend Excel export) -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <div class="logo-area">
+          <img src="logo.png" class="logo-icon" alt="Aktis Tracker Logo">
+          <div>
+            <h1>Aktis Tracker</h1>
+            <p>Monitoreo de referencias y plazos</p>
+          </div>
+        </div>
+        <div class="action-area" style="display: flex; gap: 10px; align-items: center;">
+          <button id="btn-theme-toggle" class="btn btn-icon-only" title="Cambiar tema (Claro / Oscuro)">
+            <i data-lucide="moon"></i>
+          </button>
+          <button id="btn-settings" class="btn btn-settings-btn" title="Configurar escaneos automáticos">
+            <i data-lucide="settings" class="btn-icon"></i>
+          </button>
+          <button id="btn-scan" class="btn btn-primary">
+            <i data-lucide="play" class="btn-icon"></i>
+            <span id="scan-text">Iniciar Escaneo</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="app-main">
+      
+      <!-- Welcome / Initial State -->
+      <section id="initial-state" class="welcome-card card">
+        <img src="logo.png" class="welcome-logo" alt="Aktis Tracker Logo" style="width: 80px; height: 80px; margin-bottom: 24px; object-fit: contain;">
+        <h2>Aktis Tracker</h2>
+        <p>Esta aplicación analizará de forma automática las carpetas de red de <strong>AyC</strong>, <strong>LOESS</strong> y <strong>CESA</strong>, ignorando la correspondencia ("correo") y filtrando los archivos Excel principales correspondientes.</p>
+        <button id="btn-scan-welcome" class="btn btn-primary btn-large">
+          <i data-lucide="play" class="btn-icon"></i>
+          <span>Comenzar Análisis</span>
+        </button>
+      </section>
+
+      <!-- Loading State -->
+      <section id="loading-state" class="loading-card card hidden">
+        <div class="spinner-container">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+        <h3>Analizando directorios de red...</h3>
+        <p id="loading-message">Conectando con \\172.30.0.10\Compras...</p>
+        <div class="progress-bar-container">
+          <div id="progress-bar" class="progress-bar-fill"></div>
+        </div>
+      </section>
+
+      <!-- Dashboard View (Hidden initially) -->
+      <div id="dashboard-view" class="hidden">
+        
+        <!-- KPI Mini Bar -->
+        <section class="kpi-mini-bar card">
+          <div class="kpi-mini-item">
+            <span class="kpi-mini-label">Archivos Analizados:</span>
+            <span id="kpi-files-scanned" class="kpi-mini-val val-blue">0</span>
+          </div>
+          <div class="kpi-mini-divider"></div>
+          <div class="kpi-mini-item">
+            <span class="kpi-mini-label">Pendientes Totales:</span>
+            <span id="kpi-total-pending" class="kpi-mini-val val-red">0</span>
+          </div>
+          <div class="kpi-mini-divider"></div>
+          <div class="kpi-mini-item division-kpi" data-division="02-AyC">
+            <span class="kpi-mini-label">Pedidos AyC:</span>
+            <span id="kpi-ayc" class="kpi-mini-val val-gold">0</span>
+          </div>
+          <div class="kpi-mini-divider"></div>
+          <div class="kpi-mini-item division-kpi" data-division="03-LOESS">
+            <span class="kpi-mini-label">Pedidos LOESS:</span>
+            <span id="kpi-loess" class="kpi-mini-val val-cyan">0</span>
+          </div>
+          <div class="kpi-mini-divider"></div>
+          <div class="kpi-mini-item division-kpi" data-division="04-CESA">
+            <span class="kpi-mini-label">Pedidos CESA:</span>
+            <span id="kpi-cesa" class="kpi-mini-val val-magenta">0</span>
+          </div>
+        </section>
+
+
+        <!-- Controls & Table Area -->
+        <section class="results-container card">
+          <div class="table-controls">
+            <div class="search-box">
+              <i data-lucide="search" class="search-icon"></i>
+              <input type="text" id="search-input" placeholder="Buscar por código, archivo, plazo...">
+            </div>
+            
+            <div class="filter-tabs">
+              <button class="tab-btn active" data-filter="all">Todos</button>
+              <button class="tab-btn" data-filter="02-AyC">AyC</button>
+              <button class="tab-btn" data-filter="03-LOESS">LOESS</button>
+              <button class="tab-btn" data-filter="04-CESA">CESA</button>
+            </div>
+
+            <button id="btn-view-toggle" class="btn btn-view-toggle" title="Alternar entre Vista Agrupada y Vista Plana">
+              <i data-lucide="layers" class="btn-icon"></i>
+              <span id="view-toggle-text">Vista Agrupada</span>
+            </button>
+
+            <button id="btn-export" class="btn btn-secondary">
+              <i data-lucide="download" class="btn-icon"></i>
+              <span>Exportar a Excel</span>
+            </button>
+          </div>
+
+          <!-- Controles de Paginación Superiores -->
+          <div id="pagination-controls-top" class="pagination-controls pagination-controls-top hidden">
+            <button id="btn-prev-page-top" class="btn btn-pagination">
+              <i data-lucide="chevron-left"></i> Anterior
+            </button>
+            <span id="page-info-top">Página 1 de 1</span>
+            <button id="btn-next-page-top" class="btn btn-pagination">
+              Siguiente <i data-lucide="chevron-right"></i>
+            </button>
+          </div>
+
+          <!-- Table Wrapper -->
+          <div class="table-responsive">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th data-sort="division">División</th>
+                  <th data-sort="folder">Carpeta Pedido</th>
+                  <th data-sort="file">Archivo Excel</th>
+                  <th data-sort="sheet">Hoja</th>
+                  <th data-sort="code">Código Referencia</th>
+                  <th class="text-center" data-sort="pte">PTE</th>
+                  <th data-sort="plazo">Plazo Proveedor</th>
+                  <th data-sort="fechaConfirmada">Fecha Confirmada OF</th>
+                </tr>
+              </thead>
+              <tbody id="table-body">
+                <!-- Rows injected dynamically -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Controles de Paginación -->
+          <div id="pagination-controls" class="pagination-controls hidden">
+            <button id="btn-prev-page" class="btn btn-pagination">
+              <i data-lucide="chevron-left"></i> Anterior
+            </button>
+            <span id="page-info">Página 1 de 1</span>
+            <button id="btn-next-page" class="btn btn-pagination">
+              Siguiente <i data-lucide="chevron-right"></i>
+            </button>
+          </div>
+
+          <!-- Empty search results -->
+          <div id="no-results" class="no-results hidden">
+            <i data-lucide="info" class="no-results-icon"></i>
+            <p>No se encontraron resultados para los filtros seleccionados.</p>
+          </div>
+        </section>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>&copy; 2026 - Aktis Tracker | Monitoreo de referencias y plazos</p>
+    </footer>
+
+  </div>
+
+  <!-- Modal de Configuración -->
+  <div id="settings-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Ajustes de Escaneo Automático</h2>
+        <button id="modal-close-btn" class="modal-close">
+          <i data-lucide="x" class="btn-icon"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="settings-form">
+          <div class="form-group">
+            <label for="scan-interval">Periodicidad del Escaneo</label>
+            <select id="scan-interval" class="form-control">
+              <option value="disabled">Desactivado</option>
+              <option value="1h">Cada 1 hora</option>
+              <option value="4h">Cada 4 horas</option>
+              <option value="8h">Cada 8 horas</option>
+              <option value="24h">Cada 24 horas (Diario)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="save-path">Ruta de Guardado de Reportes</label>
+            <input type="text" id="save-path" class="form-control" placeholder="Ej: C:\Ruta\De\Guardado">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button id="btn-cancel-settings" class="btn" style="background: rgba(255,255,255,0.05); color: var(--text-main);">Cancelar</button>
+        <button id="btn-save-settings" class="btn btn-primary">Guardar Ajustes</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
