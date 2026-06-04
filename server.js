@@ -290,7 +290,7 @@ function getReferencesForFile(file, targetName, activeOrdersMap) {
 
           for (let c = 0; c < row.length; c++) {
             const val = String(row[c]).toLowerCase().trim();
-            if (val.includes('código') || val.includes('codigo') || val === 'referencia' || val === 'ref') {
+            if (val.includes('código') || val.includes('codigo') || val.includes('referencia') || val === 'ref' || val.includes('refconsum')) {
               foundCode = c;
             }
             if (val === 'pte' || val === 'pte.' || val === 'pend' || val === 'pendiente' || val === 'pendientes') {

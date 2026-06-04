@@ -12,6 +12,7 @@ const rowsPerPage = 15;
 let isGroupedView = true;
 const groupsPerPage = 8;
 let collapsedGroups = new Set(JSON.parse(localStorage.getItem('aktistracker_collapsed_groups') || '[]'));
+let hiddenRows = new Set(JSON.parse(localStorage.getItem('aktistracker_hidden_rows') || '[]'));
 
 // Initialize Theme & Lucide Icons
 document.addEventListener('DOMContentLoaded', () => {
@@ -80,6 +81,11 @@ function setupEventListeners() {
   // Export button
   document.getElementById('btn-export').addEventListener('click', exportToExcel);
 
+  // Print button
+  document.getElementById('btn-print').addEventListener('click', () => {
+    window.print();
+  });
+
   // Sorting columns
   const headers = document.querySelectorAll('.results-table th');
   headers.forEach(header => {
@@ -120,6 +126,25 @@ function setupEventListeners() {
     if (currentPage < totalPages) {
       currentPage++;
       renderTable();
+    }
+  });
+
+  // Table row hiding event delegation
+  document.getElementById('table-body').addEventListener('click', (e) => {
+    const btnHide = e.target.closest('.btn-hide-row');
+    if (btnHide) {
+      e.stopPropagation();
+      const rowId = btnHide.getAttribute('data-row-id');
+      hideRow(rowId);
+      return;
+    }
+
+    const btnUnhide = e.target.closest('.btn-unhide-row');
+    if (btnUnhide) {
+      e.stopPropagation();
+      const rowId = btnUnhide.getAttribute('data-row-id');
+      unhideRow(rowId);
+      return;
     }
   });
 }
@@ -273,11 +298,52 @@ function toggleViewMode() {
   renderTable();
 }
 
+function getVisibleRows() {
+  const groupsMap = new Map();
+  const groupsList = [];
+  filteredData.forEach(item => {
+    const key = item.filePath;
+    if (!groupsMap.has(key)) {
+      const newGroup = {
+        filePath: item.filePath,
+        folder: item.folder,
+        file: item.file,
+        division: item.division,
+        items: []
+      };
+      groupsMap.set(key, newGroup);
+      groupsList.push(newGroup);
+    }
+    groupsMap.get(key).items.push(item);
+  });
+
+  const visibleRows = [];
+  groupsList.forEach((group, groupIdx) => {
+    visibleRows.push({
+      type: 'header',
+      group: group,
+      groupIdx: groupIdx
+    });
+    
+    if (!collapsedGroups.has(group.filePath) && !hiddenRows.has(group.filePath)) {
+      group.items.forEach((item, idx) => {
+        visibleRows.push({
+          type: 'subrow',
+          item: item,
+          group: group,
+          groupIdx: groupIdx,
+          idx: idx,
+          isLast: idx === group.items.length - 1
+        });
+      });
+    }
+  });
+  return visibleRows;
+}
+
 function getPagesCount() {
   if (isGroupedView) {
-    // We need to count unique files
-    const uniqueFiles = new Set(filteredData.map(i => i.filePath));
-    return Math.ceil(uniqueFiles.size / groupsPerPage) || 1;
+    return Math.ceil(getVisibleRows().length / rowsPerPage) || 1;
   } else {
     return Math.ceil(filteredData.length / rowsPerPage) || 1;
   }
@@ -297,6 +363,18 @@ function toggleGroupCollapse(filePath) {
     collapsedGroups.add(filePath);
   }
   localStorage.setItem('aktistracker_collapsed_groups', JSON.stringify([...collapsedGroups]));
+  renderTable();
+}
+
+function hideRow(rowId) {
+  hiddenRows.add(rowId);
+  localStorage.setItem('aktistracker_hidden_rows', JSON.stringify([...hiddenRows]));
+  renderTable();
+}
+
+function unhideRow(rowId) {
+  hiddenRows.delete(rowId);
+  localStorage.setItem('aktistracker_hidden_rows', JSON.stringify([...hiddenRows]));
   renderTable();
 }
 
@@ -338,90 +416,102 @@ function renderTable() {
   noResults.classList.add('hidden');
 
   if (isGroupedView) {
-    // 1. Group the filtered data while preserving the current sorted order
-    const groupsMap = new Map();
-    const groupsList = [];
-    filteredData.forEach(item => {
-      const key = item.filePath;
-      if (!groupsMap.has(key)) {
-        const newGroup = {
-          filePath: item.filePath,
-          folder: item.folder,
-          file: item.file,
-          division: item.division,
-          items: []
-        };
-        groupsMap.set(key, newGroup);
-        groupsList.push(newGroup);
-      }
-      groupsMap.get(key).items.push(item);
-    });
-
-    // 2. Pagination based on groups
-    const totalPages = Math.ceil(groupsList.length / groupsPerPage) || 1;
+    const visibleRows = getVisibleRows();
+    const totalPages = Math.ceil(visibleRows.length / rowsPerPage) || 1;
     if (currentPage > totalPages) {
       currentPage = totalPages;
     }
 
     updatePaginationUI(totalPages);
 
-    const start = (currentPage - 1) * groupsPerPage;
-    const end = start + groupsPerPage;
-    const pageGroups = groupsList.slice(start, end);
+    const start = (currentPage - 1) * rowsPerPage;
+    const end = start + rowsPerPage;
+    const pageRows = visibleRows.slice(start, end);
 
-    // 3. Render groups and subrows
-    pageGroups.forEach((group, groupIdx) => {
-      // Create group header row
-      const headerTr = document.createElement('tr');
-      headerTr.className = `group-header group-header-${getDivisionClass(group.division)}`;
-      headerTr.setAttribute('data-group-id', `group-${groupIdx}`);
-      
-      const isCollapsed = collapsedGroups.has(group.filePath);
-      
-      // Division text
-      let divText = '';
-      if (group.division === '02-AyC') divText = '<span style="color: var(--ayc-color); font-weight: 700; margin-right: 4px; font-size: 12px; letter-spacing: 0.5px;">AYC</span>';
-      else if (group.division === '03-LOESS') divText = '<span style="color: var(--loess-color); font-weight: 700; margin-right: 4px; font-size: 12px; letter-spacing: 0.5px;">LOESS</span>';
-      else if (group.division === '04-CESA') divText = '<span style="color: var(--cesa-color); font-weight: 700; margin-right: 4px; font-size: 12px; letter-spacing: 0.5px;">CESA</span>';
+    pageRows.forEach(row => {
+      if (row.type === 'header') {
+        const group = row.group;
+        const groupIdx = row.groupIdx;
+        const isCollapsed = collapsedGroups.has(group.filePath);
+        const isHidden = hiddenRows.has(group.filePath);
+        
+        const headerTr = document.createElement('tr');
+        headerTr.setAttribute('data-group-id', `group-${groupIdx}`);
+        
+        if (isHidden) {
+          headerTr.className = `group-header group-header-${getDivisionClass(group.division)} row-hidden-collapsed`;
+          headerTr.innerHTML = `
+            <td colspan="8" style="padding: 4px 12px !important;">
+              <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; line-height: 1.2;">
+                <div style="display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); opacity: 0.65;">
+                  <i data-lucide="eye-off" style="width: 12px; height: 12px;"></i>
+                  <span>Línea oculta: <strong>${group.folder} / ${group.file}</strong> (${group.items.length} ${group.items.length === 1 ? 'pendiente' : 'pendientes'})</span>
+                </div>
+                <button class="btn-unhide-row" title="Mostrar carpeta de pedido" data-row-id="${group.filePath}" style="background:transparent; border:none; color:var(--primary); cursor:pointer; font-weight:600; font-size:11px; display:flex; align-items:center; gap:4px;">
+                  <i data-lucide="eye" style="width:12px;height:12px;"></i> Mostrar
+                </button>
+              </div>
+            </td>
+          `;
 
-      headerTr.innerHTML = `
-        <td colspan="8">
-          <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; line-height: 1.2;">
-            <div class="group-title-container" style="gap: 6px;">
-              <i data-lucide="chevron-down" class="group-chevron ${isCollapsed ? 'collapsed' : ''}" style="margin-right: 4px;"></i>
-              ${divText}
-              <span class="group-folder-link" title="${group.filePath}" style="font-weight: 500;">${group.folder}</span>
-              <span style="opacity: 0.4;">/</span>
-              <span class="group-file-link" title="${group.filePath}" style="font-weight: 600; color: var(--primary);">${group.file}</span>
-            </div>
-            <div class="group-info-container">
-              <span style="font-size: 12px; color: var(--text-muted); font-weight: 500;">${group.items.length} ${group.items.length === 1 ? 'pendiente' : 'pendientes'}</span>
-            </div>
-          </div>
-        </td>
-      `;
-
-      // Event listeners for group header elements
-      headerTr.addEventListener('click', (e) => {
-        if (e.target.classList.contains('group-folder-link')) {
-          openFolderOnServer(group.filePath);
-        } else if (e.target.classList.contains('group-file-link')) {
-          openFileOnServer(group.filePath);
+          headerTr.addEventListener('click', (e) => {
+            if (e.target.closest('.btn-unhide-row')) {
+              return;
+            }
+          });
         } else {
-          toggleGroupCollapse(group.filePath);
+          headerTr.className = `group-header group-header-${getDivisionClass(group.division)}`;
+          
+          let divText = '';
+          if (group.division === '02-AyC') divText = '<span style="color: var(--ayc-color); font-weight: 700; margin-right: 4px; font-size: 12px; letter-spacing: 0.5px;">AYC</span>';
+          else if (group.division === '03-LOESS') divText = '<span style="color: var(--loess-color); font-weight: 700; margin-right: 4px; font-size: 12px; letter-spacing: 0.5px;">LOESS</span>';
+          else if (group.division === '04-CESA') divText = '<span style="color: var(--cesa-color); font-weight: 700; margin-right: 4px; font-size: 12px; letter-spacing: 0.5px;">CESA</span>';
+
+          headerTr.innerHTML = `
+            <td colspan="8">
+              <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; line-height: 1.2;">
+                <div class="group-title-container" style="gap: 6px;">
+                  <i data-lucide="chevron-down" class="group-chevron ${isCollapsed ? 'collapsed' : ''}" style="margin-right: 4px;"></i>
+                  ${divText}
+                  <span class="group-folder-link" title="${group.filePath}" style="font-weight: 500;">${group.folder}</span>
+                  <span style="opacity: 0.4;">/</span>
+                  <span class="group-file-link" title="${group.filePath}" style="font-weight: 600; color: var(--primary);">${group.file}</span>
+                </div>
+                <div class="group-info-container" style="display: flex; align-items: center; gap: 10px;">
+                  <span style="font-size: 12px; color: var(--text-muted); font-weight: 500;">${group.items.length} ${group.items.length === 1 ? 'pendiente' : 'pendientes'}</span>
+                  <button class="btn-hide-row" title="Ocultar línea" data-row-id="${group.filePath}">
+                    <i data-lucide="eye-off" style="width:14px;height:14px;"></i>
+                  </button>
+                </div>
+              </div>
+            </td>
+          `;
+
+          headerTr.addEventListener('click', (e) => {
+            if (e.target.closest('.btn-hide-row')) {
+              return;
+            }
+            if (e.target.classList.contains('group-folder-link')) {
+              openFolderOnServer(group.filePath);
+            } else if (e.target.classList.contains('group-file-link')) {
+              openFileOnServer(group.filePath);
+            } else {
+              toggleGroupCollapse(group.filePath);
+            }
+          });
         }
-      });
 
-      tbody.appendChild(headerTr);
+        tbody.appendChild(headerTr);
+      } else {
+        const item = row.item;
+        const group = row.group;
+        const groupIdx = row.groupIdx;
+        const idx = row.idx;
+        const isLast = row.isLast;
 
-      // Render items of the group
-      group.items.forEach((item, idx) => {
         const itemTr = document.createElement('tr');
         itemTr.className = `group-subrow group-${groupIdx}`;
-        if (isCollapsed) {
-          itemTr.classList.add('hidden');
-        }
-        if (idx === group.items.length - 1) {
+        if (isLast) {
           itemTr.classList.add('last-item-in-group');
         }
 
@@ -463,7 +553,7 @@ function renderTable() {
         `;
 
         tbody.appendChild(itemTr);
-      });
+      }
     });
 
   } else {
@@ -480,58 +570,81 @@ function renderTable() {
     const pageData = filteredData.slice(start, end);
 
     pageData.forEach(item => {
+      const rowId = `${item.filePath}::${item.sheet}::${item.code}`;
       const tr = document.createElement('tr');
       
-      let divBadge = '';
-      if (item.division === '02-AyC') divBadge = '<span class="badge badge-ayc">AyC</span>';
-      else if (item.division === '03-LOESS') divBadge = '<span class="badge badge-loess">LOESS</span>';
-      else if (item.division === '04-CESA') divBadge = '<span class="badge badge-cesa">CESA</span>';
-
-      let plazoCellContent = '';
-      if (/^\d{2}\/\d{2}\/\d{4}$/.test(item.plazo)) {
-        plazoCellContent = `<span class="date-plazo"><i data-lucide="calendar" style="width:14px;height:14px;vertical-align:middle;margin-right:4px;"></i>${item.plazo}</span>`;
-      } else if (item.plazo !== '') {
-        plazoCellContent = `<span class="plazo-text">${item.plazo}</span>`;
+      if (hiddenRows.has(rowId)) {
+        tr.className = 'row-hidden-collapsed';
+        tr.innerHTML = `
+          <td colspan="8" style="padding: 4px 12px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--text-muted); opacity: 0.65;">
+              <span>
+                <i data-lucide="eye-off" style="width:12px;height:12px;vertical-align:middle;margin-right:6px;"></i>
+                Línea oculta: <strong>${item.code}</strong> en ${item.division.substring(3)} / ${item.file}
+              </span>
+              <button class="btn-unhide-row" title="Mostrar línea" data-row-id="${rowId}" style="background:transparent;border:none;color:var(--primary);cursor:pointer;font-weight:600;font-size:11px;display:flex;align-items:center;gap:4px;">
+                <i data-lucide="eye" style="width:12px;height:12px;"></i> Mostrar
+              </button>
+            </div>
+          </td>
+        `;
       } else {
-        plazoCellContent = `<span class="plazo-text" style="color:var(--text-muted); opacity:0.5;">Sin plazo</span>`;
+        let divBadge = '';
+        if (item.division === '02-AyC') divBadge = '<span class="badge badge-ayc">AyC</span>';
+        else if (item.division === '03-LOESS') divBadge = '<span class="badge badge-loess">LOESS</span>';
+        else if (item.division === '04-CESA') divBadge = '<span class="badge badge-cesa">CESA</span>';
+
+        let plazoCellContent = '';
+        if (/^\d{2}\/\d{2}\/\d{4}$/.test(item.plazo)) {
+          plazoCellContent = `<span class="date-plazo"><i data-lucide="calendar" style="width:14px;height:14px;vertical-align:middle;margin-right:4px;"></i>${item.plazo}</span>`;
+        } else if (item.plazo !== '') {
+          plazoCellContent = `<span class="plazo-text">${item.plazo}</span>`;
+        } else {
+          plazoCellContent = `<span class="plazo-text" style="color:var(--text-muted); opacity:0.5;">Sin plazo</span>`;
+        }
+
+        let fechaConfirmadaCellContent = '';
+        if (/^\d{2}\/\d{2}\/\d{4}$/.test(item.fechaConfirmada)) {
+          fechaConfirmadaCellContent = `<span class="date-confirmada"><i data-lucide="calendar-check" style="width:14px;height:14px;vertical-align:middle;margin-right:4px;"></i>${item.fechaConfirmada}</span>`;
+        } else if (item.fechaConfirmada && item.fechaConfirmada !== '') {
+          fechaConfirmadaCellContent = `<span class="plazo-text">${item.fechaConfirmada}</span>`;
+        } else {
+          fechaConfirmadaCellContent = `<span class="plazo-text" style="color:var(--text-muted); opacity:0.5;">Sin fecha</span>`;
+        }
+
+        tr.innerHTML = `
+          <td>${divBadge}</td>
+          <td>
+            <div class="folder-name" title="${item.filePath}">${item.folder}</div>
+          </td>
+          <td>
+            <div class="file-name" title="${item.filePath}">${item.file}</div>
+          </td>
+          <td>
+            <span style="opacity: 0.85;">${item.sheet}</span>
+          </td>
+          <td style="font-weight:600; color:var(--primary); font-family:monospace; font-size:15px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; width:100%;">
+              <span>${item.code}</span>
+              <button class="btn-hide-row" title="Ocultar línea" data-row-id="${rowId}">
+                <i data-lucide="eye-off" style="width:14px;height:14px;"></i>
+              </button>
+            </div>
+          </td>
+          <td class="text-center">
+            <span class="badge badge-pte">${item.pte}</span>
+          </td>
+          <td>${plazoCellContent}</td>
+          <td>${fechaConfirmadaCellContent}</td>
+        `;
+
+        tr.querySelector('.file-name').addEventListener('click', () => {
+          openFileOnServer(item.filePath);
+        });
+        tr.querySelector('.folder-name').addEventListener('click', () => {
+          openFolderOnServer(item.filePath);
+        });
       }
-
-      let fechaConfirmadaCellContent = '';
-      if (/^\d{2}\/\d{2}\/\d{4}$/.test(item.fechaConfirmada)) {
-        fechaConfirmadaCellContent = `<span class="date-confirmada"><i data-lucide="calendar-check" style="width:14px;height:14px;vertical-align:middle;margin-right:4px;"></i>${item.fechaConfirmada}</span>`;
-      } else if (item.fechaConfirmada && item.fechaConfirmada !== '') {
-        fechaConfirmadaCellContent = `<span class="plazo-text">${item.fechaConfirmada}</span>`;
-      } else {
-        fechaConfirmadaCellContent = `<span class="plazo-text" style="color:var(--text-muted); opacity:0.5;">Sin fecha</span>`;
-      }
-
-      tr.innerHTML = `
-        <td>${divBadge}</td>
-        <td>
-          <div class="folder-name" title="${item.filePath}">${item.folder}</div>
-        </td>
-        <td>
-          <div class="file-name" title="${item.filePath}">${item.file}</div>
-        </td>
-        <td>
-          <span style="opacity: 0.85;">${item.sheet}</span>
-        </td>
-        <td style="font-weight:600; color:var(--primary); font-family:monospace; font-size:15px;">
-          ${item.code}
-        </td>
-        <td class="text-center">
-          <span class="badge badge-pte">${item.pte}</span>
-        </td>
-        <td>${plazoCellContent}</td>
-        <td>${fechaConfirmadaCellContent}</td>
-      `;
-
-      tr.querySelector('.file-name').addEventListener('click', () => {
-        openFileOnServer(item.filePath);
-      });
-      tr.querySelector('.folder-name').addEventListener('click', () => {
-        openFolderOnServer(item.filePath);
-      });
       
       tbody.appendChild(tr);
     });

@@ -4,7 +4,7 @@ echo =======================================================
 echo                 AKTIS TRACKER v1.0
 echo          Buscador de Pedidos Pendientes 2026
 echo =======================================================
-cd /d "%~dp0"
+pushd "%~dp0"
 
 :: Check if node_modules exists, install if missing
 if not exist node_modules (
@@ -21,5 +21,6 @@ echo.
 echo [OK] Iniciando el servidor... Para detener la aplicacion, cierra esta ventana.
 echo.
 node server.js
+popd
 
 pause

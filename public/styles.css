@@ -1167,3 +1167,209 @@ body {
   height: 2px;
   background: var(--card-border);
 }
+
+/* Botón de Impresión */
+.btn-print-btn {
+  background: #3b82f6; /* Azul brillante */
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.2);
+}
+
+.btn-print-btn:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
+}
+
+/* Botón para ocultar fila (se muestra en hover) */
+.btn-hide-row {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; /* Oculto por defecto */
+  transition: opacity var(--transition-speed) ease, color var(--transition-speed) ease, background var(--transition-speed) ease;
+}
+
+.results-table tr:hover .btn-hide-row {
+  opacity: 0.65;
+}
+
+.btn-hide-row:hover {
+  opacity: 1 !important;
+  color: var(--danger) !important;
+  background: rgba(220, 38, 38, 0.08);
+}
+
+/* Fila colapsada cuando está oculta */
+.row-hidden-collapsed {
+  background: rgba(0, 0, 0, 0.02) !important;
+  transition: background-color var(--transition-speed) ease;
+}
+
+[data-theme="dark"] .row-hidden-collapsed {
+  background: rgba(255, 255, 255, 0.015) !important;
+}
+
+.row-hidden-collapsed:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+[data-theme="dark"] .row-hidden-collapsed:hover {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+.btn-unhide-row {
+  transition: transform var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+.btn-unhide-row:hover {
+  color: var(--primary-hover) !important;
+  transform: scale(1.05);
+}
+
+/* Reglas de impresión profesionales */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 10mm 15mm;
+  }
+
+  /* Forzar la impresión de colores de fondo */
+  html, body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* Ocultar elementos interactivos e innecesarios */
+  .app-header,
+  .app-footer,
+  .table-controls,
+  .pagination-controls,
+  .pagination-controls-top,
+  .kpi-mini-bar,
+  #initial-state,
+  #loading-state,
+  .modal-overlay {
+    display: none !important;
+  }
+
+  /* Ajustar contenedor para ocupar el 100% de la hoja */
+  .app-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    background: transparent !important;
+  }
+
+  .card {
+    background: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Ajuste de la tabla */
+  .table-responsive {
+    border: none !important;
+    overflow: visible !important;
+    width: 100% !important;
+  }
+
+  .results-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: auto !important;
+  }
+
+  .results-table tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  /* Cabeceras de la tabla */
+  .results-table th {
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    border-bottom: 2px solid #cbd5e1 !important;
+    padding: 10px 8px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+  }
+
+  /* Filas de datos */
+  .results-table td {
+    padding: 8px 8px !important;
+    font-size: 11px !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+  }
+
+  /* Mantener colores de bordes e indicadores de división al imprimir */
+  .group-header-ayc {
+    background: rgba(180, 83, 9, 0.04) !important;
+    border-left: 4px solid #b45309 !important;
+  }
+
+  .group-header-loess {
+    background: rgba(30, 64, 175, 0.03) !important;
+    border-left: 4px solid #1e40af !important;
+  }
+
+  .group-header-cesa {
+    background: rgba(15, 118, 110, 0.03) !important;
+    border-left: 4px solid #0f766e !important;
+  }
+
+  .group-folder-link, 
+  .group-file-link {
+    font-size: 11px !important;
+    color: #0f172a !important;
+    text-decoration: none !important;
+  }
+
+  /* Código de referencia en negrita */
+  .results-table td[style*="font-weight:600"] {
+    color: #4f46e5 !important;
+    font-weight: 700 !important;
+  }
+
+  /* Badges de PTE circulares o bonitos para imprimir */
+  .badge-pte {
+    background: rgba(239, 68, 68, 0.08) !important;
+    color: #ef4444 !important;
+    border: 1px solid rgba(239, 68, 68, 0.2) !important;
+    font-weight: 700 !important;
+    font-size: 10px !important;
+    padding: 2px 6px !important;
+    border-radius: 20px !important;
+  }
+
+  /* Mantener las líneas conectoras del árbol en la impresión */
+  .group-subrow td:nth-child(3)::after,
+  .group-subrow td:nth-child(4)::before {
+    background: #cbd5e1 !important;
+  }
+
+  /* Ocultar las filas colapsadas ocultas al imprimir */
+  .row-hidden-collapsed {
+    display: none !important;
+  }
+}
