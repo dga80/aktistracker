@@ -6,7 +6,7 @@ let currentFilter = 'all';
 let currentSortColumn = '';
 let isAscending = true;
 let currentPage = 1;
-const rowsPerPage = 15;
+const rowsPerPage = 100000;
 
 // State for grouped view
 let isGroupedView = true;

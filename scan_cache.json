@@ -42,150 +42,9 @@
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx": {
-      "mtime": 1780487301013.5103,
-      "size": 32537,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "C063N4FM",
-          "pte": "1",
-          "plazo": "MONTAJE\r\n(26/05/2026)",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "C5EFM",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "33608",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "33615",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "C33158",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "C063N4FM",
-          "pte": "1",
-          "plazo": "MONTAJE\r\n(26/05/2026)",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "C5EFM",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "33608",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "33615",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "C33158",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "LVS03911",
-          "pte": "1",
-          "plazo": "28/05/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "LVS03911",
-          "pte": "1",
-          "plazo": "28/05/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "LVS04562",
-          "pte": "4",
-          "plazo": "04/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx",
-          "sheet": "REF.6193.75.01",
-          "code": "LVS04563",
-          "pte": "6",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx"
-        }
-      ]
+      "mtime": 1781006459966.2756,
+      "size": 32449,
+      "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - DESMONTAJE DEL CGBT.xlsx": {
       "mtime": 1778495708788.4683,
@@ -203,8 +62,8 @@
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx": {
-      "mtime": 1780394491206.0085,
-      "size": 3471967,
+      "mtime": 1780996442428.1494,
+      "size": 3472458,
       "references": [
         {
           "division": "02-AyC",
@@ -214,6 +73,16 @@
           "code": "R9L20632",
           "pte": "12",
           "plazo": "08/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON",
+          "file": "A07467.2.xlsx",
+          "sheet": "A07467.2",
+          "code": "50440",
+          "pte": "1",
+          "plazo": "10/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx"
         }
       ]
@@ -229,28 +98,28 @@
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.13.xlsx": {
-      "mtime": 1780548642438.7363,
-      "size": 3466770,
+      "mtime": 1780987514605.515,
+      "size": 13574,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.14.xlsx": {
-      "mtime": 1780548748250.3396,
-      "size": 13452,
+      "mtime": 1780987543042.5325,
+      "size": 13447,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.15.xlsx": {
-      "mtime": 1780548820929.2297,
-      "size": 13465,
+      "mtime": 1780987584032.9775,
+      "size": 13466,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.16.xlsx": {
-      "mtime": 1780548903693.496,
-      "size": 13652,
+      "mtime": 1780987440247.5254,
+      "size": 15304,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.17.xlsx": {
-      "mtime": 1780549139005.357,
-      "size": 13221,
+      "mtime": 1780987630265.374,
+      "size": 13215,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.18.xlsx": {
@@ -259,8 +128,8 @@
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.19.xlsx": {
-      "mtime": 1780549338838.556,
-      "size": 13474,
+      "mtime": 1780987663069.8213,
+      "size": 13471,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.8.xlsx": {
@@ -1178,19 +1047,9 @@
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.58.xlsx": {
-      "mtime": 1780660778409.1533,
-      "size": 20561,
+      "mtime": 1781001648027.8733,
+      "size": 20638,
       "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.58.xlsx",
-          "sheet": "REF.6193.58",
-          "code": "A9E18330",
-          "pte": "5",
-          "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.58.xlsx"
-        },
         {
           "division": "02-AyC",
           "folder": "REF.6193_SURIS Campus Catalana Occidente",
@@ -1204,8 +1063,8 @@
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx": {
-      "mtime": 1780564120059.2158,
-      "size": 22173,
+      "mtime": 1780997505204.6274,
+      "size": 22178,
       "references": [
         {
           "division": "02-AyC",
@@ -1526,56 +1385,6 @@
           "pte": "4",
           "plazo": "",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "41AC4016",
-          "pte": "1",
-          "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "11221111",
-          "pte": "1",
-          "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "41094019",
-          "pte": "1",
-          "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "41090021",
-          "pte": "2",
-          "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "26944014",
-          "pte": "1",
-          "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
         }
       ]
     },
@@ -1757,20 +1566,9 @@
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\03-LOESS\\Pedidos LOESS 2026\\L05081_ELECNOR - Bon Area Palamos\\L05081.1.xlsx": {
-      "mtime": 1779096689175.3713,
-      "size": 15771,
-      "references": [
-        {
-          "division": "03-LOESS",
-          "folder": "L05081_ELECNOR - Bon Area Palamos",
-          "file": "L05081.1.xlsx",
-          "sheet": "L05081.1",
-          "code": "5SY4480-7",
-          "pte": "1",
-          "plazo": "10/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\03-LOESS\\Pedidos LOESS 2026\\L05081_ELECNOR - Bon Area Palamos\\L05081.1.xlsx"
-        }
-      ]
+      "mtime": 1780985427451.173,
+      "size": 15768,
+      "references": []
     },
     "\\\\172.30.0.10\\Compras\\03-LOESS\\Pedidos LOESS 2026\\L05081_ELECNOR - Bon Area Palamos\\L05081.2.xlsx": {
       "mtime": 1779967676043.8677,
