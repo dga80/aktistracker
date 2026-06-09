@@ -191,6 +191,7 @@ function getActiveOrders() {
       
       let sbColIdx = 6; // fallback to column 6 (G)
       let fechaColIdx = 10; // fallback to column 10 (K)
+      let estadoMatColIdx = 19; // fallback to column 19 (T)
       
       const searchLimit = Math.min(12, rawRows.length);
       for (let r = 0; r < searchLimit; r++) {
@@ -203,6 +204,13 @@ function getActiveOrders() {
         const fIdx = row.findIndex(val => String(val).toLowerCase().trim() === 'fecha confirmada' || String(val).toLowerCase().trim() === 'fecha_confirmada');
         if (fIdx !== -1) {
           fechaColIdx = fIdx;
+        }
+        const emIdx = row.findIndex(val => {
+          const s = String(val).toLowerCase().trim();
+          return s === 'estado materiales' || s === 'estado_materiales';
+        });
+        if (emIdx !== -1) {
+          estadoMatColIdx = emIdx;
         }
       }
       
@@ -218,7 +226,17 @@ function getActiveOrders() {
               rawFecha = row[fechaColIdx];
               fecha = formatPlazo(rawFecha);
             }
-            if (isWithinOneMonth(rawFecha)) {
+            
+            // Check if order is finalized (ESTADO MATERIALES === '4-F')
+            let isFinalized = false;
+            if (row.length > estadoMatColIdx) {
+              const statusVal = String(row[estadoMatColIdx]).toUpperCase().trim();
+              if (statusVal === '4-F') {
+                isFinalized = true;
+              }
+            }
+            
+            if (!isFinalized) {
               activeMap.set(norm, fecha);
             }
           }

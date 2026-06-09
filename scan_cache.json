@@ -5,11 +5,6 @@
       "size": 14095,
       "references": []
     },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\1-COMPLETO AYC - 2026\\A07372_ELECNOR - CDOS CONTROL TIPO 1 Y 2\\A07372.7÷8.xlsx": {
-      "mtime": 1777887748031.4243,
-      "size": 15056,
-      "references": []
-    },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\1-COMPLETO AYC - 2026\\A07473_ELECNOR - CUADROS RENFE\\A07473.1.xlsx": {
       "mtime": 1778064582973.307,
       "size": 13789,
@@ -18,6 +13,11 @@
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\1-COMPLETO AYC - 2026\\A07473_ELECNOR - CUADROS RENFE\\A07473.2.xlsx": {
       "mtime": 1778064627123.02,
       "size": 13780,
+      "references": []
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\Pedido ref. 6193.75 MES.xlsx": {
+      "mtime": 1780654064513.4604,
+      "size": 38196,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.01.01 - Modif. CGBT.xlsx": {
@@ -1151,53 +1151,6 @@
         }
       ]
     },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.42.xlsx": {
-      "mtime": 1779880816821.7676,
-      "size": 18718,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193.41÷49",
-          "file": "REF.6193.42.xlsx",
-          "sheet": "REF.6193.42",
-          "code": "A9DF7610",
-          "pte": "1",
-          "plazo": "15/05/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.42.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193.41÷49",
-          "file": "REF.6193.42.xlsx",
-          "sheet": "REF.6193.42",
-          "code": "LVS03204",
-          "pte": "-1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.42.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.44.xlsx": {
-      "mtime": 1778747411824.0193,
-      "size": 20262,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193.41÷49",
-          "file": "REF.6193.44.xlsx",
-          "sheet": "REF.6193.44",
-          "code": "A9DF7610",
-          "pte": "1",
-          "plazo": "15/05/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.44.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.46.xlsx": {
-      "mtime": 1779875373983.7495,
-      "size": 21161,
-      "references": []
-    },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.47.xlsx": {
       "mtime": 1780374870370.4177,
       "size": 19909,
@@ -1224,25 +1177,9 @@
         }
       ]
     },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.56.xlsx": {
-      "mtime": 1779867962693.1199,
-      "size": 20049,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.56.xlsx",
-          "sheet": "REF.6193.56",
-          "code": "A9DF7610",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.56.xlsx"
-        }
-      ]
-    },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.58.xlsx": {
-      "mtime": 1780398401080.945,
-      "size": 20520,
+      "mtime": 1780660778409.1533,
+      "size": 20561,
       "references": [
         {
           "division": "02-AyC",
@@ -1252,16 +1189,6 @@
           "code": "A9E18330",
           "pte": "5",
           "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.58.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.58.xlsx",
-          "sheet": "REF.6193.58",
-          "code": "A9E18331",
-          "pte": "2",
-          "plazo": "08//06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.58.xlsx"
         },
         {
@@ -1709,8 +1636,8 @@
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6420_UTE Edificio Fangos Edar El Prat\\REF.6420.2 (CCM2)\\REF.6420.2 MES_CIRCUTOR.xlsx": {
-      "mtime": 1761821108201.6604,
-      "size": 12142,
+      "mtime": 1780907616218.194,
+      "size": 12365,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6420_UTE Edificio Fangos Edar El Prat\\REF.6420.2 (CCM2)\\REF.6420.2-AMP.xlsx": {
