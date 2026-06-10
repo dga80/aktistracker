@@ -36,6 +36,92 @@
         }
       ]
     },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx": {
+      "mtime": 1781074900395.599,
+      "size": 14511,
+      "references": [
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LV431541",
+          "pte": "1",
+          "plazo": "18/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LV429235",
+          "pte": "1",
+          "plazo": "18/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LV429236",
+          "pte": "1",
+          "plazo": "18/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LV429516",
+          "pte": "2",
+          "plazo": "18/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LVS03413",
+          "pte": "1",
+          "plazo": "18/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LVS03604",
+          "pte": "1",
+          "plazo": "18/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LVS04427",
+          "pte": "1",
+          "plazo": "26/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
+          "file": "REF.6193.75-AMP ok ok.xlsx",
+          "sheet": "REF.6193.75-AMP",
+          "code": "LV429515",
+          "pte": "2",
+          "plazo": "18/06/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+        }
+      ]
+    },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP.xlsx": {
       "mtime": 1780398954699.8057,
       "size": 14709,
@@ -62,8 +148,8 @@
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx": {
-      "mtime": 1780996442428.1494,
-      "size": 3472458,
+      "mtime": 1781082763167.4705,
+      "size": 3472451,
       "references": [
         {
           "division": "02-AyC",
@@ -73,16 +159,6 @@
           "code": "R9L20632",
           "pte": "12",
           "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON",
-          "file": "A07467.2.xlsx",
-          "sheet": "A07467.2",
-          "code": "50440",
-          "pte": "1",
-          "plazo": "10/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx"
         }
       ]
@@ -235,8 +311,8 @@
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx": {
-      "mtime": 1780404961855.9204,
-      "size": 3469198,
+      "mtime": 1781077354430.58,
+      "size": 15300,
       "references": [
         {
           "division": "02-AyC",
@@ -245,7 +321,7 @@
           "sheet": "REF.6193.27",
           "code": "28903",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -255,7 +331,7 @@
           "sheet": "REF.6193.27",
           "code": "A9DF7616",
           "pte": "13",
-          "plazo": "",
+          "plazo": "30/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -265,7 +341,7 @@
           "sheet": "REF.6193.27",
           "code": "A9A26909",
           "pte": "14",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -275,7 +351,7 @@
           "sheet": "REF.6193.27",
           "code": "LVS03001",
           "pte": "4",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -285,7 +361,7 @@
           "sheet": "REF.6193.27",
           "code": "LVS03203",
           "pte": "3",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -295,7 +371,7 @@
           "sheet": "REF.6193.27",
           "code": "LVS03204",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -305,7 +381,7 @@
           "sheet": "REF.6193.27",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -315,7 +391,7 @@
           "sheet": "REF.6193.27",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -325,7 +401,7 @@
           "sheet": "REF.6193.27",
           "code": "LVS08106",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -335,7 +411,7 @@
           "sheet": "REF.6193.27",
           "code": "LVS08126",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         },
         {
@@ -345,14 +421,14 @@
           "sheet": "REF.6193.27",
           "code": "LVS04200",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
         }
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx": {
-      "mtime": 1780475939734.3596,
-      "size": 15898,
+      "mtime": 1781080618703.4717,
+      "size": 15926,
       "references": [
         {
           "division": "02-AyC",
@@ -361,7 +437,7 @@
           "sheet": "REF.6193.28",
           "code": "28903",
           "pte": "1",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -371,7 +447,7 @@
           "sheet": "REF.6193.28",
           "code": "A9DF7616",
           "pte": "12",
-          "plazo": "",
+          "plazo": "30/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -381,7 +457,7 @@
           "sheet": "REF.6193.28",
           "code": "A9A26909",
           "pte": "13",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -391,7 +467,7 @@
           "sheet": "REF.6193.28",
           "code": "LVS03001",
           "pte": "4",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -401,7 +477,7 @@
           "sheet": "REF.6193.28",
           "code": "LVS03203",
           "pte": "3",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -411,7 +487,7 @@
           "sheet": "REF.6193.28",
           "code": "LVS03204",
           "pte": "1",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -421,7 +497,7 @@
           "sheet": "REF.6193.28",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -431,7 +507,7 @@
           "sheet": "REF.6193.28",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -441,7 +517,7 @@
           "sheet": "REF.6193.28",
           "code": "LVS08106",
           "pte": "1",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -451,7 +527,7 @@
           "sheet": "REF.6193.28",
           "code": "LVS08126",
           "pte": "1",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         },
         {
@@ -461,14 +537,14 @@
           "sheet": "REF.6193.28",
           "code": "LVS04200",
           "pte": "1",
-          "plazo": "",
+          "plazo": "16/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
         }
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx": {
-      "mtime": 1780476062007.8142,
-      "size": 15891,
+      "mtime": 1781077469890.6306,
+      "size": 15752,
       "references": [
         {
           "division": "02-AyC",
@@ -477,7 +553,7 @@
           "sheet": "REF.6193.30",
           "code": "A9DF7616",
           "pte": "9",
-          "plazo": "",
+          "plazo": "30/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -487,7 +563,7 @@
           "sheet": "REF.6193.30",
           "code": "A9A26909",
           "pte": "10",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -497,7 +573,7 @@
           "sheet": "REF.6193.30",
           "code": "28903",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -507,7 +583,7 @@
           "sheet": "REF.6193.30",
           "code": "LVS03001",
           "pte": "4",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -517,7 +593,7 @@
           "sheet": "REF.6193.30",
           "code": "LVS03203",
           "pte": "3",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -527,7 +603,7 @@
           "sheet": "REF.6193.30",
           "code": "LVS03204",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -537,7 +613,7 @@
           "sheet": "REF.6193.30",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -547,7 +623,7 @@
           "sheet": "REF.6193.30",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -557,7 +633,7 @@
           "sheet": "REF.6193.30",
           "code": "LVS08106",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -567,7 +643,7 @@
           "sheet": "REF.6193.30",
           "code": "LVS08126",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         },
         {
@@ -577,14 +653,14 @@
           "sheet": "REF.6193.30",
           "code": "LVS04200",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
         }
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx": {
-      "mtime": 1780476133354.6433,
-      "size": 15892,
+      "mtime": 1781077502648.3374,
+      "size": 15755,
       "references": [
         {
           "division": "02-AyC",
@@ -593,7 +669,7 @@
           "sheet": "REF.6193.31",
           "code": "A9DF7616",
           "pte": "12",
-          "plazo": "",
+          "plazo": "30/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -603,7 +679,7 @@
           "sheet": "REF.6193.31",
           "code": "A9A26909",
           "pte": "13",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -613,7 +689,7 @@
           "sheet": "REF.6193.31",
           "code": "28903",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -623,7 +699,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS03001",
           "pte": "4",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -633,7 +709,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS03203",
           "pte": "3",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -643,7 +719,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS03204",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -653,7 +729,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -663,7 +739,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -673,7 +749,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS03805",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -683,7 +759,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS08106",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -693,7 +769,7 @@
           "sheet": "REF.6193.31",
           "code": "LVS08126",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         },
         {
@@ -703,14 +779,14 @@
           "sheet": "REF.6193.31",
           "code": "LVS04200",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
         }
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx": {
-      "mtime": 1780476209014.4583,
-      "size": 15880,
+      "mtime": 1781077534564.9702,
+      "size": 15755,
       "references": [
         {
           "division": "02-AyC",
@@ -719,7 +795,7 @@
           "sheet": "REF.6193.32",
           "code": "A9DF7616",
           "pte": "6",
-          "plazo": "",
+          "plazo": "30/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -729,7 +805,7 @@
           "sheet": "REF.6193.32",
           "code": "A9A26909",
           "pte": "7",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -739,7 +815,7 @@
           "sheet": "REF.6193.32",
           "code": "28903",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -749,7 +825,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS03001",
           "pte": "3",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -759,7 +835,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS03203",
           "pte": "2",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -769,7 +845,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS03204",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -779,7 +855,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -789,7 +865,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -799,7 +875,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS03805",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -809,7 +885,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS08105",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -819,7 +895,7 @@
           "sheet": "REF.6193.32",
           "code": "LVS08125",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         },
         {
@@ -829,14 +905,14 @@
           "sheet": "REF.6193.32",
           "code": "LVS04200",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
         }
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx": {
-      "mtime": 1780547133589.8467,
-      "size": 17265,
+      "mtime": 1781076107274.468,
+      "size": 17434,
       "references": [
         {
           "division": "02-AyC",
@@ -845,7 +921,7 @@
           "sheet": "REF.6193.33",
           "code": "28900",
           "pte": "2",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -855,7 +931,7 @@
           "sheet": "REF.6193.33",
           "code": "28908",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -865,7 +941,7 @@
           "sheet": "REF.6193.33",
           "code": "A9L16300",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -875,7 +951,7 @@
           "sheet": "REF.6193.33",
           "code": "A9F79340",
           "pte": "2",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -885,7 +961,7 @@
           "sheet": "REF.6193.33",
           "code": "A9Y71625",
           "pte": "21",
-          "plazo": "",
+          "plazo": "02/07/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -895,7 +971,7 @@
           "sheet": "REF.6193.33",
           "code": "A9A26909",
           "pte": "11",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -905,7 +981,7 @@
           "sheet": "REF.6193.33",
           "code": "METSEPM5310",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -915,7 +991,7 @@
           "sheet": "REF.6193.33",
           "code": "METSECT5CC008",
           "pte": "3",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -925,7 +1001,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS03001",
           "pte": "7",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -935,7 +1011,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS03203",
           "pte": "4",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -945,7 +1021,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS03204",
           "pte": "3",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -955,7 +1031,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS03913",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -965,7 +1041,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS08204",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -975,7 +1051,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS08224",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -985,7 +1061,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -995,7 +1071,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS03220",
           "pte": "5",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -1005,7 +1081,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         },
         {
@@ -1015,7 +1091,7 @@
           "sheet": "REF.6193.33",
           "code": "LVS04200",
           "pte": "1",
-          "plazo": "",
+          "plazo": "18/06/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         }
       ]
