@@ -92,6 +92,18 @@ function normalizeOrderCode(code) {
   return clean;
 }
 
+// Checks if a normalized order code matches any active order (including base-to-suborder matches like L05112 -> L05112.1)
+function isOrderCodeActive(normalizedFileCode, activeOrdersMap) {
+  if (!normalizedFileCode) return false;
+  if (activeOrdersMap.has(normalizedFileCode)) return true;
+  const baseFileCode = normalizedFileCode.split('.')[0];
+  if (activeOrdersMap.has(baseFileCode)) return true;
+  for (const activeCode of activeOrdersMap.keys()) {
+    if (activeCode.startsWith(normalizedFileCode + '.')) return true;
+  }
+  return false;
+}
+
 // Extracts the order code from a file name (handles A0/C0/L0, PT, CNJ, SBL, REF, and digit-only orders)
 function extractOrderCode(filename) {
   if (!filename) return '';
@@ -373,9 +385,18 @@ function getReferencesForFile(file, targetName, activeOrdersMap) {
     let fechaConfirmadaOF = activeOrdersMap.get(normalizedFileCode);
     if (!fechaConfirmadaOF) {
       const baseFileCode = normalizedFileCode.split('.')[0];
-      fechaConfirmadaOF = activeOrdersMap.get(baseFileCode) || '';
+      fechaConfirmadaOF = activeOrdersMap.get(baseFileCode);
     }
-    return { ...ref, fechaConfirmada: fechaConfirmadaOF };
+    if (!fechaConfirmadaOF) {
+      // Fallback: check if any active order starts with normalizedFileCode + '.' (handles cases like L05112 -> L05112.1)
+      for (const [activeCode, date] of activeOrdersMap.entries()) {
+        if (activeCode.startsWith(normalizedFileCode + '.')) {
+          fechaConfirmadaOF = date;
+          break;
+        }
+      }
+    }
+    return { ...ref, fechaConfirmada: fechaConfirmadaOF || '' };
   });
 }
 
@@ -508,12 +529,7 @@ app.get('/api/scan', (req, res) => {
         const fileOrderCode = extractOrderCode(file.name);
         if (fileOrderCode) {
           const normalizedFileCode = normalizeOrderCode(fileOrderCode);
-          let isActive = activeOrdersMap.has(normalizedFileCode);
-          if (!isActive) {
-            const baseFileCode = normalizedFileCode.split('.')[0];
-            isActive = activeOrdersMap.has(baseFileCode);
-          }
-          return isActive;
+          return isOrderCodeActive(normalizedFileCode, activeOrdersMap);
         }
         return false;
       });
@@ -597,8 +613,7 @@ async function runAutomaticScan() {
         const fileOrderCode = extractOrderCode(file.name);
         if (fileOrderCode) {
           const normalizedFileCode = normalizeOrderCode(fileOrderCode);
-          const baseFileCode = normalizedFileCode.split('.')[0];
-          return activeOrdersMap.has(normalizedFileCode) || activeOrdersMap.has(baseFileCode);
+          return isOrderCodeActive(normalizedFileCode, activeOrdersMap);
         }
         return false;
       });

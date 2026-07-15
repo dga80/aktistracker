@@ -1,8 +1,8 @@
 {
   "files": {
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\1-COMPLETO AYC - 2026\\A07286_MARINSTAL - FABRICA TECNICAS BARBERA\\A07286.8.xlsx": {
-      "mtime": 1779355139093.802,
-      "size": 14095,
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\1-COMPLETO AYC - 2026\\A07295_SURIS - LLULL\\A07295-10.xlsx": {
+      "mtime": 1777025720203.0034,
+      "size": 3467609,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\1-COMPLETO AYC - 2026\\A07473_ELECNOR - CUADROS RENFE\\A07473.1.xlsx": {
@@ -15,965 +15,622 @@
       "size": 13780,
       "references": []
     },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\Pedido ref. 6193.75 MES.xlsx": {
-      "mtime": 1780654064513.4604,
-      "size": 38196,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.01.01 - Modif. CGBT.xlsx": {
-      "mtime": 1780487370809.1082,
-      "size": 15195,
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.06.xlsx": {
+      "mtime": 1783504133956.7412,
+      "size": 13827,
       "references": [
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.01.01 - Modif. CGBT.xlsx",
-          "sheet": "REF.6193.01.01",
-          "code": "LVS03480",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.06.xlsx",
+          "sheet": "A07561",
+          "code": "HGD63-M4P040C",
           "pte": "1",
           "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.01.01 - Modif. CGBT.xlsx"
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.06.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.06.xlsx",
+          "sheet": "A07561",
+          "code": "HGD63-M4P016C",
+          "pte": "7",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.06.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.06.xlsx",
+          "sheet": "A07561",
+          "code": "HRC63S-G4PG7040",
+          "pte": "4",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.06.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.06.xlsx",
+          "sheet": "A07561",
+          "code": "PROMET-DIS3",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.06.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.06.xlsx",
+          "sheet": "A07561",
+          "code": "62212O",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.06.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.06.xlsx",
+          "sheet": "A07561",
+          "code": "32200",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.06.xlsx"
         }
       ]
     },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx": {
-      "mtime": 1781074900395.599,
-      "size": 14511,
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.07.xlsx": {
+      "mtime": 1783504133956.7412,
+      "size": 13827,
       "references": [
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LV431541",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.07.xlsx",
+          "sheet": "A07561",
+          "code": "HGD63-M4P040C",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.07.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LV429235",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.07.xlsx",
+          "sheet": "A07561",
+          "code": "HGD63-M4P016C",
+          "pte": "7",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.07.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LV429236",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.07.xlsx",
+          "sheet": "A07561",
+          "code": "HRC63S-G4PG7040",
+          "pte": "4",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.07.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LV429516",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.07.xlsx",
+          "sheet": "A07561",
+          "code": "PROMET-DIS3",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.07.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.07.xlsx",
+          "sheet": "A07561",
+          "code": "62212O",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.07.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07490_SURIS - CUADROS FABRICA HIELO SPRIM",
+          "file": "A07490.07.xlsx",
+          "sheet": "A07561",
+          "code": "32200",
           "pte": "2",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
-        },
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07490_SURIS - CUADROS FABRICA HIELO SPRIM\\A07490.07.xlsx"
+        }
+      ]
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx": {
+      "mtime": 1784029959021.091,
+      "size": 25492,
+      "references": [
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LVS03413",
+          "folder": "A07556_MARINSTAL - SORLI Can Bruixa Bcn",
+          "file": "A07556.01.xlsx",
+          "sheet": "A07556.01",
+          "code": "A9Z06440",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+          "plazo": "07/07/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LVS03604",
+          "folder": "A07556_MARINSTAL - SORLI Can Bruixa Bcn",
+          "file": "A07556.01.xlsx",
+          "sheet": "A07556.01",
+          "code": "A9K17210",
+          "pte": "40",
+          "plazo": "07/07/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07556_MARINSTAL - SORLI Can Bruixa Bcn",
+          "file": "A07556.01.xlsx",
+          "sheet": "A07556.01",
+          "code": "CCT15225",
+          "pte": "-1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07556_MARINSTAL - SORLI Can Bruixa Bcn",
+          "file": "A07556.01.xlsx",
+          "sheet": "A07556.01",
+          "code": "LVS08224",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+          "plazo": "07/07/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LVS04427",
+          "folder": "A07556_MARINSTAL - SORLI Can Bruixa Bcn",
+          "file": "A07556.01.xlsx",
+          "sheet": "A07556.01",
+          "code": "LVS08815",
+          "pte": "2",
+          "plazo": "07/07/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07556_MARINSTAL - SORLI Can Bruixa Bcn",
+          "file": "A07556.01.xlsx",
+          "sheet": "A07556.01",
+          "code": "A9K24440",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07556_MARINSTAL - SORLI Can Bruixa Bcn",
+          "file": "A07556.01.xlsx",
+          "sheet": "A07556.01",
+          "code": "TA10D4S0404TPE",
+          "pte": "1",
+          "plazo": "10/07/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.01.xlsx"
+        }
+      ]
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.02.xlsx": {
+      "mtime": 1783076309916.3152,
+      "size": 14668,
+      "references": []
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07556_MARINSTAL - SORLI Can Bruixa Bcn\\A07556.03.xlsx": {
+      "mtime": 1783417837793.47,
+      "size": 13653,
+      "references": []
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104\\A07562.02.xlsx": {
+      "mtime": 1784098667656.797,
+      "size": 15892,
+      "references": [
+        {
+          "division": "02-AyC",
+          "folder": "A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104",
+          "file": "A07562.02.xlsx",
+          "sheet": "A07562",
+          "code": "NSYCRN43200T",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104\\A07562.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104",
+          "file": "A07562.02.xlsx",
+          "sheet": "A07562",
+          "code": "NSYMM43",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104\\A07562.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104",
+          "file": "A07562.02.xlsx",
+          "sheet": "A07562",
+          "code": "NSYPIN43",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104\\A07562.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104",
+          "file": "A07562.02.xlsx",
+          "sheet": "A07562",
+          "code": "NSYPFCR",
           "pte": "1",
           "plazo": "26/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07562 (A07591)_MARINSTAL - CUADRO PARKING_MALADETA 104\\A07562.02.xlsx"
+        }
+      ]
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07581_MARINSTAL - Cdos. Control Secado_FABRICA BARBERA\\A07581.01.xlsx": {
+      "mtime": 1783069673637.0671,
+      "size": 15356,
+      "references": []
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07581_MARINSTAL - Cdos. Control Secado_FABRICA BARBERA\\A07581.02.xlsx": {
+      "mtime": 1783069759357.4875,
+      "size": 15317,
+      "references": []
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx": {
+      "mtime": 1783945705187.9873,
+      "size": 17906,
+      "references": [
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "31107",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT",
-          "file": "REF.6193.75-AMP ok ok.xlsx",
-          "sheet": "REF.6193.75-AMP",
-          "code": "LV429515",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "18662",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03001",
+          "pte": "3",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03205",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03204",
           "pte": "2",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP ok ok.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75-AMP.xlsx": {
-      "mtime": 1780398954699.8057,
-      "size": 14709,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - CGBT RED GRUPO COMPLEMENTARI.xlsx": {
-      "mtime": 1781006459966.2756,
-      "size": 32449,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - DESMONTAJE DEL CGBT.xlsx": {
-      "mtime": 1778495708788.4683,
-      "size": 11990,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07414_REF.6193.01.01_REF.6193.75.01 - SURIS - CATALANA OCCIDENTE - AMP. CGBT\\REF.6193.75.01 - SOCOMEC.xlsx": {
-      "mtime": 1779272630170.3018,
-      "size": 13493,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.1.xlsx": {
-      "mtime": 1780398024642.3499,
-      "size": 15257,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx": {
-      "mtime": 1781082763167.4705,
-      "size": 3472451,
-      "references": [
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
+        },
         {
           "division": "02-AyC",
-          "folder": "A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON",
-          "file": "A07467.2.xlsx",
-          "sheet": "A07467.2",
-          "code": "R9L20632",
-          "pte": "12",
-          "plazo": "08/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07467_SURIS_CDO. 400A + CDO. CARGADORES - HOTEL HILTON\\A07467.2.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.10.xlsx": {
-      "mtime": 1780380490132.8894,
-      "size": 13769,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.12.xlsx": {
-      "mtime": 1780548131849.7874,
-      "size": 13513,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.13.xlsx": {
-      "mtime": 1780987514605.515,
-      "size": 13574,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.14.xlsx": {
-      "mtime": 1780987543042.5325,
-      "size": 13447,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.15.xlsx": {
-      "mtime": 1780987584032.9775,
-      "size": 13466,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.16.xlsx": {
-      "mtime": 1780987440247.5254,
-      "size": 15304,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.17.xlsx": {
-      "mtime": 1780987630265.374,
-      "size": 13215,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.18.xlsx": {
-      "mtime": 1780549249268.5923,
-      "size": 13480,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.19.xlsx": {
-      "mtime": 1780987663069.8213,
-      "size": 13471,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.8.xlsx": {
-      "mtime": 1780461205483.5283,
-      "size": 21521,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07513_A07286.8÷10 + 12÷19_MARINSTAL - CDOS. NAVE BARBERÀ\\A07286.9.xlsx": {
-      "mtime": 1780381172041.25,
-      "size": 14253,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07520_ELECNOR - CUADRO CONTROL PARKING TIPO 1\\A07520.1.xlsx": {
-      "mtime": 1779874623808.557,
-      "size": 15496,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07520_ELECNOR - CUADRO CONTROL PARKING TIPO 1\\A07520.2.xlsx": {
-      "mtime": 1779874601725.4712,
-      "size": 15492,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07520_ELECNOR - CUADRO CONTROL PARKING TIPO 1\\A07520.3.xlsx": {
-      "mtime": 1779874575561.1953,
-      "size": 15489,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07520_ELECNOR - CUADRO CONTROL PARKING TIPO 1\\A07520.4.xlsx": {
-      "mtime": 1779964060660.4958,
-      "size": 3468997,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\1ª RECEPCION SUMADA REF.6193.1.xlsx": {
-      "mtime": 1771418659356.629,
-      "size": 74635,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\6193.1_6193.2 - A07232 mat. MES.xlsx": {
-      "mtime": 1773220519449.5723,
-      "size": 17947,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1 - SESELECTRO.xlsx": {
-      "mtime": 1773836755206.2502,
-      "size": 13678,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1.xlsx": {
-      "mtime": 1772696502579.4758,
-      "size": 45581,
-      "references": []
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1_Auditoría Schneiderdddd.xlsx": {
-      "mtime": 1772134109452.389,
-      "size": 24006,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193.1 & REF.6193.3",
-          "file": "REF.6193.1_Auditoría Schneiderdddd.xlsx",
-          "sheet": "02_02_26",
-          "code": "362223211",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS08108",
           "pte": "1",
           "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1_Auditoría Schneiderdddd.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1_Pletinas.xlsx": {
-      "mtime": 1779190096924.3013,
-      "size": 24318,
-      "references": [
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
+        },
         {
           "division": "02-AyC",
-          "folder": "REF.6193.1 & REF.6193.3",
-          "file": "REF.6193.1_Pletinas.xlsx",
-          "sheet": "02_02_26",
-          "code": "LVS04567",
-          "pte": "18",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS08128",
+          "pte": "1",
           "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1_Pletinas.xlsx"
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193.1 & REF.6193.3",
-          "file": "REF.6193.1_Pletinas.xlsx",
-          "sheet": "02_02_26",
-          "code": "362209653",
-          "pte": "68",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03030",
+          "pte": "1",
           "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1_Pletinas.xlsx"
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193.1 & REF.6193.3",
-          "file": "REF.6193.1_Pletinas.xlsx",
-          "sheet": "02_02_26",
-          "code": "362209649",
-          "pte": "17",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03231",
+          "pte": "1",
           "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.1 & REF.6193.3\\REF.6193.1_Pletinas.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx": {
-      "mtime": 1781077354430.58,
-      "size": 15300,
-      "references": [
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
+        },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "28903",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03806",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "A9DF7616",
-          "pte": "13",
-          "plazo": "30/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "A9A26909",
-          "pte": "14",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "LVS03001",
-          "pte": "4",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "LVS03203",
-          "pte": "3",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "LVS03204",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03801",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS03220",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "LVS08106",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.01.xlsx",
+          "sheet": "A07605",
+          "code": "LVS04045",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "LVS08126",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.27.xlsx",
-          "sheet": "REF.6193.27",
-          "code": "LVS04200",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.27.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.01.xlsx"
         }
       ]
     },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx": {
-      "mtime": 1781080618703.4717,
-      "size": 15926,
+    "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx": {
+      "mtime": 1783945737282.7527,
+      "size": 16139,
       "references": [
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "28903",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "31107",
           "pte": "1",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "A9DF7616",
-          "pte": "12",
-          "plazo": "30/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "A9A26909",
-          "pte": "13",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS03001",
-          "pte": "4",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS03203",
-          "pte": "3",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS03204",
-          "pte": "1",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS04266",
-          "pte": "1",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS08963",
-          "pte": "1",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS08106",
-          "pte": "1",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS08126",
-          "pte": "1",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.28.xlsx",
-          "sheet": "REF.6193.28",
-          "code": "LVS04200",
-          "pte": "1",
-          "plazo": "16/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.28.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx": {
-      "mtime": 1781077469890.6306,
-      "size": 15752,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "A9DF7616",
-          "pte": "9",
-          "plazo": "30/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "A9A26909",
-          "pte": "10",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "28903",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS03001",
-          "pte": "4",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS03203",
-          "pte": "3",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS03204",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS04266",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS08963",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS08106",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS08126",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.30.xlsx",
-          "sheet": "REF.6193.30",
-          "code": "LVS04200",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.30.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx": {
-      "mtime": 1781077502648.3374,
-      "size": 15755,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "A9DF7616",
-          "pte": "12",
-          "plazo": "30/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "A9A26909",
-          "pte": "13",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "28903",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS03001",
-          "pte": "4",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS03203",
-          "pte": "3",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS03204",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS04266",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS08963",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS03805",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS08106",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS08126",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.31.xlsx",
-          "sheet": "REF.6193.31",
-          "code": "LVS04200",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.31.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx": {
-      "mtime": 1781077534564.9702,
-      "size": 15755,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "A9DF7616",
-          "pte": "6",
-          "plazo": "30/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "A9A26909",
-          "pte": "7",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "28903",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "LVS03001",
-          "pte": "3",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "LVS03203",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "18662",
           "pte": "2",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "LVS03204",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "19042",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS03001",
+          "pte": "3",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS03030",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS03231",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS03806",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
           "code": "LVS04266",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
         },
         {
           "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS03220",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
           "code": "LVS08963",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS08108",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS08128",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS03204",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        },
+        {
+          "division": "02-AyC",
+          "folder": "A07605_SURIS - CUADROS EDIFICIO G APPLUS",
+          "file": "A07605.02.xlsx",
+          "sheet": "A07605.02",
+          "code": "LVS04018",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\1-Pedidos AyC 2026\\A07605_SURIS - CUADROS EDIFICIO G APPLUS\\A07605.02.xlsx"
+        }
+      ]
+    },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33 (SOCOMEC).xlsx": {
+      "mtime": 1783685768506.4844,
+      "size": 15248,
+      "references": [
+        {
+          "division": "02-AyC",
+          "folder": "REF.6193_SURIS Campus Catalana Occidente",
+          "file": "REF.6193.33 (SOCOMEC).xlsx",
+          "sheet": "REF.6193.33 SOCOMEC",
+          "code": "4430 4006",
+          "pte": "1",
+          "plazo": "17/07/2025",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33 (SOCOMEC).xlsx"
         },
         {
           "division": "02-AyC",
           "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "LVS03805",
+          "file": "REF.6193.33 (SOCOMEC).xlsx",
+          "sheet": "REF.6193.33 SOCOMEC",
+          "code": "4439 5012",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
+          "plazo": "17/07/2025",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33 (SOCOMEC).xlsx"
         },
         {
           "division": "02-AyC",
           "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "LVS08105",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "LVS08125",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.32.xlsx",
-          "sheet": "REF.6193.32",
-          "code": "LVS04200",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.32.xlsx"
+          "file": "REF.6193.33 (SOCOMEC).xlsx",
+          "sheet": "REF.6193.33 SOCOMEC",
+          "code": "4439 0001",
+          "pte": "2",
+          "plazo": "17/07/2025",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33 (SOCOMEC).xlsx"
         }
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx": {
-      "mtime": 1781076107274.468,
-      "size": 17434,
+      "mtime": 1783503422734.8672,
+      "size": 19395,
       "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "28900",
-          "pte": "2",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "28908",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "A9L16300",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "A9F79340",
-          "pte": "2",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "A9Y71625",
-          "pte": "21",
-          "plazo": "02/07/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "A9A26909",
-          "pte": "11",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
         {
           "division": "02-AyC",
           "folder": "REF.6193_SURIS Campus Catalana Occidente",
@@ -981,124 +638,30 @@
           "sheet": "REF.6193.33",
           "code": "METSEPM5310",
           "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "METSECT5CC008",
-          "pte": "3",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS03001",
-          "pte": "7",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS03203",
-          "pte": "4",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS03204",
-          "pte": "3",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS03913",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS08204",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS08224",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS04266",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS03220",
-          "pte": "5",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS08963",
-          "pte": "1",
-          "plazo": "18/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.33.xlsx",
-          "sheet": "REF.6193.33",
-          "code": "LVS04200",
-          "pte": "1",
-          "plazo": "18/06/2026",
+          "plazo": "17/07/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.33.xlsx"
         }
       ]
     },
+    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.44.xlsx": {
+      "mtime": 1782986865599.7517,
+      "size": 20347,
+      "references": [
+        {
+          "division": "02-AyC",
+          "folder": "REF.6193.41÷49",
+          "file": "REF.6193.44.xlsx",
+          "sheet": "REF.6193.44",
+          "code": "A9DF7610",
+          "pte": "1",
+          "plazo": "09/07/2026",
+          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.44.xlsx"
+        }
+      ]
+    },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.47.xlsx": {
-      "mtime": 1780374870370.4177,
-      "size": 19909,
+      "mtime": 1783947235477.0771,
+      "size": 21511,
       "references": [
         {
           "division": "02-AyC",
@@ -1117,352 +680,15 @@
           "sheet": "REF.6193.47",
           "code": "A9DF7610",
           "pte": "1",
-          "plazo": "",
+          "plazo": "09/07/2026",
           "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.41÷49\\REF.6193.47.xlsx"
         }
       ]
     },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.58.xlsx": {
-      "mtime": 1781001648027.8733,
-      "size": 20638,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.58.xlsx",
-          "sheet": "REF.6193.58",
-          "code": "A9DF7610",
-          "pte": "1",
-          "plazo": "06/06/2026",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.58.xlsx"
-        }
-      ]
-    },
-    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx": {
-      "mtime": 1780997505204.6274,
-      "size": 22178,
-      "references": [
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "METSEPM5310",
-          "pte": "3",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "METSECT5CC010",
-          "pte": "21",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "METSECT5MA015",
-          "pte": "3",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "28912",
-          "pte": "2",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "C10F42D100",
-          "pte": "7",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03911",
-          "pte": "4",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03908",
-          "pte": "5",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03401",
-          "pte": "4",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03203",
-          "pte": "3",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03420",
-          "pte": "3",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03222",
-          "pte": "2",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03801",
-          "pte": "3",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08566",
-          "pte": "2",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03913",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03204",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08607",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08518",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08738",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08638",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08643",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08606",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08516",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08736",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08636",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08760",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03803",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS08963",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS04809",
-          "pte": "2",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS01109",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS04767",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS04657",
-          "pte": "1",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        },
-        {
-          "division": "02-AyC",
-          "folder": "REF.6193_SURIS Campus Catalana Occidente",
-          "file": "REF.6193.6.xlsx",
-          "sheet": "REF.6193.6",
-          "code": "LVS03249",
-          "pte": "4",
-          "plazo": "",
-          "filePath": "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.6.xlsx"
-        }
-      ]
+    "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6193_SURIS Campus Catalana Occidente\\REF.6193.47.02.xlsx": {
+      "mtime": 1782972803915.6992,
+      "size": 16236,
+      "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6420_UTE Edificio Fangos Edar El Prat\\REF.6420.1 (CCM1)\\REF. 6420.1.2 AYC_GLAS FORM.xlsx": {
       "mtime": 1762864981189.518,
@@ -1521,8 +747,8 @@
       ]
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6420_UTE Edificio Fangos Edar El Prat\\REF.6420.2 (CCM2)\\REF.6420.2 MES_CIRCUTOR.xlsx": {
-      "mtime": 1780907616218.194,
-      "size": 12365,
+      "mtime": 1781178583119.158,
+      "size": 12860,
       "references": []
     },
     "\\\\172.30.0.10\\Compras\\02-AyC\\2-Pedidos AyC 2025\\REF.6420_UTE Edificio Fangos Edar El Prat\\REF.6420.2 (CCM2)\\REF.6420.2-AMP.xlsx": {
@@ -1636,20 +862,1449 @@
       "size": 43520,
       "references": []
     },
-    "\\\\172.30.0.10\\Compras\\03-LOESS\\Pedidos LOESS 2026\\L05044_ELECNOR - Residencia de Estudiantes Alba\\Planificación\\L05044.31 CPT_CR_Residencia Estudiantes Alba-Cerdanyola_.xls": {
-      "mtime": 1778678866107.2559,
-      "size": 28672,
-      "references": []
+    "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx": {
+      "mtime": 1783789185105.1887,
+      "size": 20077,
+      "references": [
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "1SDA067424R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "2CTB803973R1100",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "2CSM259343R0721",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "2CSF202001R1400",
+          "pte": "11",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "2CDS272001R0104",
+          "pte": "11",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPMU3060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PDRR0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPFB3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPMF3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PDRS0600",
+          "pte": "5",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "2CPX038227R9999",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPMF1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPFB1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PFFA1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PUPM1800",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PCFM0300",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PCFM0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PTBB6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PTBO6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PDLG1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPEB1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PFCF6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPAM0100",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPFM1060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PUKI1800",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPEB1830",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "PPFM1030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "EV1040",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "EV1047",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "EN0101K",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "VA7930",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.01.xlsx",
+          "sheet": "C02218.01",
+          "code": "LVS04052",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.01.xlsx"
+        }
+      ]
     },
-    "\\\\172.30.0.10\\Compras\\03-LOESS\\Pedidos LOESS 2026\\L05081_ELECNOR - Bon Area Palamos\\L05081.1.xlsx": {
-      "mtime": 1780985427451.173,
-      "size": 15768,
-      "references": []
+    "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx": {
+      "mtime": 1783789307106.4895,
+      "size": 19646,
+      "references": [
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "1SDA067424R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "1SDA066325R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "1SDA066908R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "2CTB803973R1100",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "2CSF202001R1400",
+          "pte": "13",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "2CDS272001R0164",
+          "pte": "12",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "2CSM259343R0721",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "2CPX062384R9999",
+          "pte": "3",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "2CPX038227R9999",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "EV1040",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "EN0101K",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "VA7930",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PFFA1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PUPM1800",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PCFM0300",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PCFM0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PTBB6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PTBO6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PDLG1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPEB1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PFCF6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPAM0100",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPFM1060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PUKI1800",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPEB1830",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPFM1030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPMU3060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PDRR0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPMF3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PDRS0600",
+          "pte": "5",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPMF1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPFB3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "PPFB1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.02.xlsx",
+          "sheet": "C02218.02",
+          "code": "LVS04052",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.02.xlsx"
+        }
+      ]
     },
-    "\\\\172.30.0.10\\Compras\\03-LOESS\\Pedidos LOESS 2026\\L05081_ELECNOR - Bon Area Palamos\\L05081.2.xlsx": {
-      "mtime": 1779967676043.8677,
-      "size": 14734,
-      "references": []
+    "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx": {
+      "mtime": 1783788797418.0906,
+      "size": 21128,
+      "references": [
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "1SDA067424R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "1SDA066325R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "1SDA066908R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CTB803973R1100",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CDS272001R0164",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CCG001230R0001",
+          "pte": "4",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CSM259343R0721",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CDS272001R0104",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CSF202001R1400",
+          "pte": "8",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CPX062384R9999",
+          "pte": "3",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "2CPX038227R9999",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "EV1040",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "EN0101K",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "VA7930",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PUPM1800",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PCFM0300",
+          "pte": "3",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PTBB3030",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PDLB1830",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPEB1830",
+          "pte": "3",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PDCB1830",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPAM0100",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPFM1030",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PUKI1800",
+          "pte": "4",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PSBS0065",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PTVS8030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PTVS1030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PFFA1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PCFM0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PTBB6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PTBO6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PDLG1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPEB1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PFCF6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPFM1060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPMU3060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PDRR0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPFB1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPFB3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPMF3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PDRS0600",
+          "pte": "5",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "PPMF1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.03.xlsx",
+          "sheet": "C02218.03",
+          "code": "LVS04052",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.03.xlsx"
+        }
+      ]
+    },
+    "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx": {
+      "mtime": 1783789081538.2283,
+      "size": 19386,
+      "references": [
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "1SDA067424R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "1SDA066325R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "1SDA066908R1",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "2CTB803973R1100",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "2CSM259343R0721",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "2CSF202001R1400",
+          "pte": "8",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "2CDS272001R0104",
+          "pte": "8",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPMU3060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PDRR0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPFB3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPMF3060",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PDRS0600",
+          "pte": "5",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "2CPX062384R9999",
+          "pte": "3",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "2CPX038227R9999",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPMF1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPFB1560",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PFFA1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PUPM1800",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PCFM0300",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PCFM0600",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PTBB6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PTBO6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PDLG1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPEB1860",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PFCF6030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPAM0100",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPFM1060",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PUKI1800",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPEB1830",
+          "pte": "2",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "PPFM1030",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "EV1040",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "EN0101K",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "VA7930",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        },
+        {
+          "division": "04-CESA",
+          "folder": "C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)",
+          "file": "C02218.04.xlsx",
+          "sheet": "C02218.04",
+          "code": "LVS04052",
+          "pte": "1",
+          "plazo": "",
+          "filePath": "\\\\172.30.0.10\\Compras\\04-CESA\\1-Pedidos CESA 2026\\C02218_GES Madrid - ELECTRICAL PANELS - COBRA IRLANDA (GES26-0113)\\C02218.04.xlsx"
+        }
+      ]
     }
   }
 }
