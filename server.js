@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 const xlsx = require('xlsx');
 
 const app = express();
@@ -488,6 +489,40 @@ app.post('/api/open-folder', (req, res) => {
   } catch (e) {
     return res.status(500).json({ success: false, error: e.message });
   }
+});
+
+// Obtener IP local activa de red
+function getLocalNetworkIp() {
+  const interfaces = os.networkInterfaces();
+  const priorityOrder = ['Ethernet', 'Wi-Fi', 'Ethernet 2', 'Wi-Fi 2'];
+  for (const name of priorityOrder) {
+    if (interfaces[name]) {
+      for (const iface of interfaces[name]) {
+        if (iface.family === 'IPv4' && !iface.internal && iface.address !== '127.0.0.1') {
+          return iface.address;
+        }
+      }
+    }
+  }
+  for (const name of Object.keys(interfaces)) {
+    for (const iface of interfaces[name]) {
+      if (iface.family === 'IPv4' && !iface.internal && iface.address !== '127.0.0.1') {
+        return iface.address;
+      }
+    }
+  }
+  return 'localhost';
+}
+
+// Server info & share URL API
+app.get('/api/server-info', (req, res) => {
+  const ip = getLocalNetworkIp();
+  res.json({
+    success: true,
+    ip,
+    port: PORT,
+    shareUrl: `http://${ip}:${PORT}/`
+  });
 });
 
 // Config API

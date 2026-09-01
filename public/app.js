@@ -19,8 +19,81 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   lucide.createIcons();
   setupEventListeners();
+  initShareIpButton();
   loadAppConfig();
 });
+
+async function initShareIpButton() {
+  const btnShare = document.getElementById('btn-share-ip');
+  const ipValEl = document.getElementById('share-ip-val');
+  if (!btnShare || !ipValEl) return;
+
+  let currentShareUrl = '';
+
+  try {
+    const res = await fetch('/api/server-info');
+    if (res.ok) {
+      const info = await res.json();
+      if (info.ip && info.ip !== 'localhost') {
+        currentShareUrl = info.shareUrl || `http://${info.ip}:${info.port || 3000}/`;
+        ipValEl.textContent = `${info.ip}:${info.port || 3000}`;
+      }
+    }
+  } catch (e) {}
+
+  if (!currentShareUrl) {
+    const host = window.location.hostname;
+    const port = window.location.port || '3000';
+    if (host && host !== 'localhost' && host !== '127.0.0.1') {
+      currentShareUrl = `${window.location.protocol}//${host}:${port}/`;
+      ipValEl.textContent = `${host}:${port}`;
+    } else {
+      currentShareUrl = `http://192.168.1.185:${port}/`;
+      ipValEl.textContent = `192.168.1.185:${port}`;
+    }
+  }
+
+  btnShare.title = `Haz clic para copiar el enlace para tus compañeros: ${currentShareUrl}`;
+
+  btnShare.addEventListener('click', async () => {
+    const previousLabel = ipValEl.textContent;
+    let copiedSuccess = false;
+
+    if (navigator.clipboard && window.isSecureContext) {
+      try {
+        await navigator.clipboard.writeText(currentShareUrl);
+        copiedSuccess = true;
+      } catch (err) {}
+    }
+
+    if (!copiedSuccess) {
+      try {
+        const tempInput = document.createElement('textarea');
+        tempInput.value = currentShareUrl;
+        tempInput.style.position = 'fixed';
+        tempInput.style.left = '-9999px';
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        copiedSuccess = true;
+      } catch (err) {}
+    }
+
+    btnShare.classList.add('copied');
+    ipValEl.textContent = '¡Enlace copiado!';
+    const copyIcon = btnShare.querySelector('#share-ip-copy-icon');
+    if (copyIcon) copyIcon.setAttribute('data-lucide', 'check');
+    if (window.lucide) lucide.createIcons();
+
+    setTimeout(() => {
+      btnShare.classList.remove('copied');
+      ipValEl.textContent = previousLabel;
+      if (copyIcon) copyIcon.setAttribute('data-lucide', 'copy');
+      if (window.lucide) lucide.createIcons();
+    }, 2200);
+  });
+}
 
 function setupEventListeners() {
   // Theme toggle

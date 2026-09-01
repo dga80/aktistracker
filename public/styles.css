@@ -200,6 +200,65 @@ body {
   margin-top: 1px;
 }
 
+/* Share IP Button / Badge */
+.btn-share-ip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(14, 165, 233, 0.12);
+  border: 1px solid rgba(14, 165, 233, 0.35);
+  color: #0284c7;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+  transition: all var(--transition-speed) ease;
+}
+
+[data-theme="dark"] .btn-share-ip {
+  background: rgba(56, 189, 248, 0.12);
+  border-color: rgba(56, 189, 248, 0.3);
+  color: #38bdf8;
+}
+
+.btn-share-ip:hover {
+  background: rgba(14, 165, 233, 0.22);
+  border-color: rgba(14, 165, 233, 0.6);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
+}
+
+[data-theme="dark"] .btn-share-ip:hover {
+  background: rgba(56, 189, 248, 0.22);
+  border-color: rgba(56, 189, 248, 0.6);
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.2);
+}
+
+.btn-share-ip.copied {
+  background: rgba(16, 185, 129, 0.18) !important;
+  border-color: rgba(16, 185, 129, 0.5) !important;
+  color: #059669 !important;
+}
+
+[data-theme="dark"] .btn-share-ip.copied {
+  color: #34d399 !important;
+}
+
+.btn-share-ip .btn-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.btn-share-ip .btn-icon-copy {
+  width: 13px;
+  height: 13px;
+  opacity: 0.8;
+  margin-left: 2px;
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
